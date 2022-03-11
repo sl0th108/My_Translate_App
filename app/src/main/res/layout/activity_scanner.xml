@@ -62,6 +62,20 @@
         android:backgroundTint="@color/yellow"
         />
 
+    <Button
+        android:id="@+id/idBtnTranslate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idBtnDetect"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        app:background="@drawable/button_black"
+        android:text="Translate"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/yellow"
+        />
+
 
 
 </RelativeLayout>
